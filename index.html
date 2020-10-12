@@ -25,6 +25,7 @@
   <link href="others/venobox/venobox.css" rel="stylesheet">
   <link href="others/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="others/aos/aos.css" rel="stylesheet">
+  <!-- <link href="css/parallax.css" rel="stylesheet"> -->
 
   <!-- Template Main CSS File -->
   <link href="css/style.css" rel="stylesheet">
@@ -40,18 +41,18 @@
 <body>
 
   <!-- ======= Hero Section ======= -->
-  <section class="section hero main-section parallax-scene-js" id="large-hero" style="background:url('images/background.jpg') no-repeat  fixed; background-size:fixed;">
+  <section class="section hero main-section parallax parallax-scene-js" id="large-hero" style="background:url('images/background.jpg') no-repeat  fixed; ">
     <div class="container" >
       <canvas class="demo-canvas" id="demo-canvas"></canvas>
       <div class="row justify-content-center">
         <div class="col-xl-8 col-12">
           <div class="main-decorated-box text-center text-xl-left">
-            <h1 class="text-white text-xl-center wow main-head slideInRight" ><span class="align-top offset-top-30 d-inline-block font-weight-light prefix-text">Grow your   </span><span class="big font-weight-bold d-inline-flex offset-right-200"> business </span><br><span class="align-top offset-left-200 d-inline-block font-weight-light prefix-text">with </span><span class="biggest  d-inline-flex font-weight-bold"> ZLF.</span></h1>
+            <h1 class="text-white text-xl-center wow main-head slideInRight" ><span class="align-top offset-top-20 d-inline-flex font-weight-light prefix-text">Grow your   </span><span class="big font-weight-bold d-inline-flex offset-right-200"> business </span><br><span class="align-top offset-left-200 d-inline-block font-weight-light prefix-text">with </span><span class="biggest  d-inline-flex font-weight-bold"> ZLF.</span></h1>
             <div class="decorated-subtitle text-italic substext text-center text-white wow ">We are a team of experts, here to make your business easier</div>
           </div>
         </div>
          
-        <div class="col-12 text-center offset-top-75"><a data-aos="fade-up" href="#about" class="btn-get-started scrollto">Get Started</a></div>
+        <div class="col-12 text-center offset-top-20"><a data-aos="fade-up" href="#about" class="btn-get-started scrollto">Get Started</a></div>
       </div>
     </div>
     <div class="decorate-layer">
@@ -64,7 +65,7 @@
         </div>
       </div>
       <div class="layer-3">
-        <div class="layer" data-depth=".40"><img src="images/parallax-item-3-153x144.png" alt="" width="153" height="72"/>
+        <div class="layer" data-depth=".90"><img src="images/parallax-item-4-69x74.png" alt="" width="100" height="100"/>
         </div>
       </div>
       <div class="layer-4">
@@ -79,6 +80,11 @@
         <div class="layer" data-depth=".30"><img src="images/parallax-item-6-45x54.png" alt="" width="45" height="27"/>
         </div>
       </div>
+
+
+      
+      
+
     </div>
   </section><!-- End Hero -->
 
@@ -125,11 +131,27 @@
   </header><!-- End Header -->
 
   <main id="main">
+    
+    <div id="exchange" class="exchange">
+      <br>
+      <br>
+      <marquee scrollamount="10" behavior="scroll" direction="left">
+        <p><strong><i class="icofont-bitcoin"></i> ZLF/TRX : <span id = "ZLX_rate"></span> &emsp; &emsp; &emsp; &emsp; <i class="icofont-coins"></i> ZLF/INR : <span id = "INR_rate"></span> </strong></p>
+      </marquee>
+      <marquee scrollamount="10" behavior="scroll" direction="right">
+        <p><strong><i class="icofont-newspaper"></i> <a href="#">Some News goes Here - Reporters</a> </strong></p>
+      </marquee>
+    </div>
+
+   
 
     <!-- ======= About Us Section ======= -->
     <section id="about" class="about">
       <div class="container">
-        <canvas class="demo-canvas"></canvas>
+        <div class="overlay-cover">
+          <div class="overlay-image"></div>
+        </div>
+        <!-- <canvas class="demo-canvas " id="demo-class"></canvas> -->
         <div class="section-title" data-aos="fade-up">
           <h2>About Us</h2>
           <p>Magnam dolores commodi suscipit eius consequatur</p>
@@ -162,6 +184,48 @@
 
       </div>
     </section><!-- End About Us Section -->
+        <!-- =======New Counts Section ======= -->
+        <section id="counts" class="counts">
+          <div class="container" >
+    
+            <div class="row">
+    
+              <div class="col-lg-3 col-md-6" data-aos="zoom-in-right">
+                <div class="count-box">
+                  <i class="icofont-simple-smile"></i>
+                  <span data-toggle="counter-up">110</span>
+                  <p>Happy dividend HODLERS</p>
+                </div>
+              </div>
+    
+              <div class="col-lg-3 col-md-6 mt-5 mt-md-0"  data-aos="zoom-in-up">
+                <div class="count-box">
+                  <i class="icofont-people"></i>
+                  <span data-toggle="counter-up">28000</span>
+                  <p>Satisfied Customers</p>
+                </div>
+              </div>
+    
+              <div class="col-lg-3 col-md-6 mt-5 mt-lg-0"  data-aos="zoom-in-up">
+                <div class="count-box">
+                  <i class="icofont-clock-time"></i>
+                  <span data-toggle="counter-up">4</span>
+                  <p>Years Of Experience</p>
+                </div>
+              </div>
+    
+              <div class="col-lg-3 col-md-6 mt-5 mt-lg-0" data-aos="zoom-in-left">
+                <div class="count-box">
+                  <i class="icofont-dollar"></i>
+                  <span data-toggle="counter-up">1100000</span>
+                  <p>Revenue generated</p>
+                </div>
+              </div>
+    
+            </div>
+    
+          </div>
+        </section><!-- End  New Counts Section -->
 
     <!-- ======= Services Section ======= -->
     <!-- <section id="services" class="services">
@@ -325,7 +389,11 @@
 
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials">
+      <!-- <div class="overlay-cover"> -->
+        <div class="overlay-image"></div>
+        <!-- </div> -->
       <div class="container" data-aos="zoom-in">
+        
         <div class="quote-icon">
           <i class="bx bxs-quote-right"></i>
         </div>
@@ -401,7 +469,9 @@
     <!-- ======= Team Section ======= -->
     <section id="team" class="team section-bg">
       <div class="container">
-
+        <div class="overlay-cover">
+          <div class="overlay-image"></div>
+        </div>
         <div class="section-title" data-aos="flip-down">
           <h2>Team</h2>
           <!-- <p class="catchy-line-in-index">The Reason behind "Our Success"</p> -->
@@ -488,7 +558,9 @@
     <!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq">
       <div class="container">
-
+        <div class="overlay-cover">
+          <div class="overlay-image"></div>
+        </div>
         <div class="section-title" data-aos="fade-up">
           <h2>Frequently Asked Questions</h2>
         </div>
@@ -611,27 +683,28 @@
     <!-- ======= Certification ======= -->
   <section id="certification" class="certification">
     <div class="container">
-
+      <div class="overlay-cover">
+        <div class="overlay-image"></div>
+      </div>
       <div class="section-title" data-aos="fade-up">
         <h2>Certification</h2>
         <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fuga eum quidem</p>
       </div>
 
       <div class ="row ">
-        
+        <p><i class="ri-check-double-line"></i> Our Certifications & Affiliations ensure that we have the knowledge and professional experience in everything we offer.</p>
   
         <div class="col-lg-6 content"  data-aos="zoom-in-right" data-aos-delay="600">
           
           <ul class="description">
-            <li><i class="ri-check-double-line"></i> Our Certifications & Affiliations ensure that we have the knowledge and professional experience in everything we 
-              offer.</li>
-          <li><i class="ri-check-double-line"></i>We are a member of the Asian Professional Security Association (APSA), a non-profit international organization for
+            
+          <li><i class="ri-check-double-line"></i>• We are a member of the Asian Professional Security Association (APSA), a non-profit international organization for
             security professionals and practitioners.
           </li>
-          <li><i class="ri-check-double-line"></i> Our bath & body products are manufactured at a GMP (Good Manufacturing Practices) certified unit.
+          <li><i class="ri-check-double-line"></i> • Our bath & body products are manufactured at a GMP (Good Manufacturing Practices) certified unit.
           </li>
           <li><i class="ri-check-double-line"></i>
-            Our teas are packed at a FSSAI certified facility, which further ensures their quality and wholesome goodness.
+            • Our teas are packed at a FSSAI certified facility, which further ensures their quality and wholesome goodness.
           </li>
           </ul>
 
@@ -641,11 +714,11 @@
           <ul class="description">
             
             <li><i class="ri-check-double-line"></i>
-              We are an ISO 9001:2015 certified company offering quality products and services to our consumers.We are also an associate member of FICCI-CMSME.
+              • We are an ISO 9001:2015 certified company offering quality products and services to our consumers.We are also an associate member of FICCI-CMSME.
             </li>
             <li><i class="ri-check-double-line"></i>
-              Zillonlife Global is a proud member of TiE (The Indus Entrepreneurs), a global entrepreneurship organisation. </li>
-       <li> <i class="ri-check-double-line"></i>      TiE is a non-profit organization founded in Silicon Valley. Their mission is to foster and nurture entrepreneurs
+              • Zillonlife Global is a proud member of TiE (The Indus Entrepreneurs), a global entrepreneurship organisation. </li>
+       <li> <i class="ri-check-double-line"></i>      • TiE is a non-profit organization founded in Silicon Valley. Their mission is to foster and nurture entrepreneurs
                globally.
             </li>
           </ul>
@@ -699,6 +772,84 @@
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-logo">
+           
+            <img src="images/logo_zlf_64.png">
+            <h4 class="footer-logo-heading">ZLF</h4>
+            
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="icofont-arrow-right"></i><a href="index.html">Home</a></li>
+              <li><i class="icofont-arrow-right"></i><a href="about.html">About us</a></li>
+              <li><i class="icofont-arrow-right"></i><a href="zlf_education.html">Services</a></li>
+              <li><i class="icofont-arrow-right"></i><a href="portfolio.html">Portfolio</a></li>
+              <li><i class="icofont-arrow-right"></i><a href="https://zillonlife.com/Themes/Urban/Content/download/ZLF-WHITEPAPE-1.0.pdf">ZLF Whitepaper</a></li>
+            </ul>
+          </div>
+
+         
+
+          <div class="col-lg-6 col-md-12 footer-contact">
+            <h4>Contact Us</h4>
+            <div class="row">
+            <div class="col-lg-5 col-md-5 address">
+            <p>
+          <u>Head Office</u><br>
+              WZ 49, BLOCK A,<br>
+              Street No. 6,<br>
+              Hastsal Road,<br>
+              Uttam Nagar,<br> New Delhi - 110059<br>
+              
+              <!--<strong>Phone:</strong>+91 82877 86413<br>-->
+            
+            </p>
+            </div>
+            <div class="col-lg-7 col-md-7 address">
+              <p>
+              <u>Regional Office</u><br>
+            
+              Zillonlife Global Pvt Ltd,<br>
+                NDRK Enclave No. 2730,<br>
+                27th Main, 16th Cross,<br>
+                Sector 1, HSR Layout,<br>
+                Bengaluru – 560102
+            </p>
+            </div>
+          </div>
+          <strong>Email : </strong> <a class="mail-foot" href=contactus@zillonlife.com>contactus@zillonlife.com</a><br>
+          <br>
+            <div class="social-links">
+              <a href="https://twitter.com/zillonlife?lang=en" class="twitter"><i class="icofont-twitter"></i></a>
+              <a href="https://www.facebook.com/zillonlifeofficial/" class="facebook"><i class="icofont-facebook"></i></a>
+              <a href="https://www.instagram.com/zlf_brand_store/" class="instagram"><i class="icofont-instagram"></i></a>
+              <!-- <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a> -->
+              <a href="https://www.reddit.com/r/ZLF/" class="reddit"><i class="icofont-reddit"></i></a>
+              <a href="https://t.me/ZillonLife" class="telegram"><i class="icofont-telegram"></i></a>
+            </div>
+
+          </div>
+         
+
+         
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Zillion Life Pvt. Ltd.</strong>. All Rights Reserved  2020
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+  <!-- <footer id="footer">
 
     <div class="footer-top">
 
@@ -735,15 +886,15 @@
       <div class="copyright">
         &copy; Copyright <strong><span>ZLF Pvt. Ltd</span></strong>. All Rights Reserved 2020
       </div>
-      <div class="credits">
+      <div class="credits"> -->
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/knight-free-bootstrap-theme/ -->
         <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
-      </div>
+      <!-- </div>
     </div>
-  </footer><!-- End Footer -->
+  </footer>End Footer -->
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
@@ -760,6 +911,8 @@
   <script src="js/core.min.js"></script>
   <script src="js/tweenlite.min.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/scroll.js"></script>
+  <script src="js/exchange.js"></script>
   <!-- Template Main JS File -->
   <script src="js/main.js"></script>
 

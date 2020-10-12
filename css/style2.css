@@ -542,7 +542,7 @@ html [class*='section-'].section-bottom-0 {
 }
 
 .section-intro h1 {
-	text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.35);
+	text-shadow: 0px 2px 8px rgba(255, 255, 255, 0.8);
 }
 
 .section-intro .intro-description {
@@ -615,6 +615,7 @@ html [class*='section-'].section-bottom-0 {
 .layer-5 {
 	bottom: 40%;
 	left: 17%;
+	z-index: -1;
 }
 
 .layer-6 {
@@ -622,7 +623,7 @@ html [class*='section-'].section-bottom-0 {
 	left: 19.5%;
 }
 .demo-canvas{
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -650,7 +651,7 @@ html [class*='section-'].section-bottom-0 {
 
 @media (min-width: 1200px) {
 	.main-decorated-box .decorated-subtitle {
-		font-size: 36px;
+		font-size: 24px;
 		font-weight: 600;
 		padding: 10px 30px 10px 30px;
 	}
@@ -725,7 +726,7 @@ h3 + img {
 }
 
 * + .big {
-	margin-top: 20px;
+	margin-top: 1px;
 }
 
 * + .text-block {
