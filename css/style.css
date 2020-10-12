@@ -450,6 +450,17 @@ section {
 --------------------------------------------------------------*/
 #about{
   background: url("../images/background.jpg") no-repeat fixed;
+  position: relative;
+ 
+}
+.demo-canvas{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -2;
+
 }
 .about .image {
   padding: 20px;
