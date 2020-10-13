@@ -485,7 +485,9 @@ section {
 
  
 }
-
+.about .section-title{
+  padding-bottom: 0 !important;
+}
 /* 
 .overlay-cover{
   position: relative;
@@ -1356,7 +1358,12 @@ section {
 #certification{
   background: linear-gradient(rgba(1,1,1,.4),rgba(1,1,1,.4)), url("../images/background.jpg") no-repeat fixed;
   position: relative;
+  /* padding-bottom: 20px !important; */
   /* z-index: -3; */
+}
+#certification .section-title{
+  padding-bottom: 0 !important;
+  margin: 0 !important;
 }
 
 
