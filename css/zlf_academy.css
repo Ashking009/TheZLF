@@ -1,0 +1,83 @@
+:root{
+  --fc-pri: #fff;
+  --fc-accent: #f1c27d;
+  /* 241, 194, 125 */
+  --fc-dark: #111;
+  --fc-brown : #555555;
+  --fc-acc-light :#ffdbac;
+  --fc-dark-pri: #eee;
+  /* #7cc576; */
+  }
+
+.ZLF-Academy{
+  background: linear-gradient(rgba(1,1,1,.4),rgba(1,1,1,.4)), url("../images/background.jpg") no-repeat fixed;
+  background-size: cover;
+  position: relative;
+}
+.ZLF-Academy .content ul {
+    list-style: none;
+    padding: 0 ;
+  }
+  
+  .ZLF-Academy .content ul li {
+    padding-left: 10px;
+    position: relative;
+  }
+
+  .ZLF-Academy .content p{
+    margin-bottom: 5px;
+  }
+  
+  
+  .ZLF-Academy .content ul li + li {
+    margin-top: 5px;
+  }
+  
+ 
+  .ZLF-Academy .content h1{
+      text-transform: uppercase;
+    
+      
+      font-size:50px;
+      font-weight: bold;
+     /* transform: scale(0.7, 1.7);*/
+
+  }
+
+  .ZLF-Academy .content .ZLF-Academy-img .img-fluid{
+      height: 100%;
+      opacity: .5;
+      border-radius: 50px;
+  }
+
+
+  .ZLF-Academy .btn-learn-more {
+    font-family: "Monteserrat", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 50px;
+    transition: 0.3s;
+    line-height: 1;
+    color: var(--fc-accent);
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    margin-top: 6px;
+    border: 2px solid var(--fc-accent);
+    position: absolute;
+    right: 4em;
+    margin: 0 auto 4em;
+  }
+  .ZLF-Academy  .btn-learn-more:hover {
+    background:var(--fc-accent);
+    color: #fff;
+    text-decoration: none;
+    float: right;
+  }
+
+  body{
+      background: transparent;
+  }
+  
