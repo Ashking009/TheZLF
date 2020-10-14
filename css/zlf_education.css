@@ -10,6 +10,8 @@
   
   }
 
+ 
+
 .ZLF-Education{
   
   background: linear-gradient(rgba(1,1,1,.4),rgba(1,1,1,.4)), url("../images/background.jpg") no-repeat fixed;
@@ -37,18 +39,20 @@
 
   .ZLF-Education .content h2{
       text-transform: uppercase;
-    
-      
-      font-size:50px;
+      font-size:40px;
       font-weight: bold;
+      padding-top: 20px;
      /* transform: scale(0.7, 1.7);*/
 
   }
 
   .ZLF-Education .content .ZLF-Education-img .img-fluid{
-      height: 100%;
-      opacity: .6;
-      border-radius: 50px;
+    max-width: 450px;
+    display: block;
+    width: 100%;
+    opacity: .6;
+    margin: 0 auto;
+    border-radius: 50px;
   }
 
 
@@ -80,4 +84,9 @@
   
   body{
       background: transparent;
+  }
+  @media (max-width:991px){
+    h2{
+      padding: 20px 0 20px 0;
+    }
   }

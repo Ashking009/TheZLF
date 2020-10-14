@@ -25,10 +25,12 @@ body{
 
 h1{
   text-transform: uppercase;
+  font-size:40px;
+  font-weight: bold;
 }
 h3{
   font-size: 24px;
-  background-color:var(--fc-accent);
+  background: linear-gradient(rgba(1,1,1,.6),rgba(1,1,1,.6));
   padding: 5px 8px;
   border-radius: 8px;
   margin-bottom: 0 !important;
@@ -38,12 +40,18 @@ h3{
 }
 h5{
   font-size: 16px;
-  background-color: var(--fc-accent);
-  padding: 2px 5px;
+  background: linear-gradient(rgba(1,1,1,.6),rgba(1,1,1,.6));
   border-radius: 5px;
+  padding: 5px;
   margin-bottom: 0 !important;
 }
 
+h5:hover{
+ color: var(--fc-accent);
+}
+h3:hover{
+  color: var(--fc-accent);
+}
 .overlay-m {
     position: absolute;
     left: 15px;
@@ -145,6 +153,11 @@ h5{
     color: #fff;
  
   }
+  .top-post-area .top-post-left .top-post-details h3:hover {
+    color: var(--fc-accent);
+
+  }
+  
   
   @media (max-width: 767px) {
     .top-post-area .top-post-left .top-post-details h3 {
@@ -181,6 +194,7 @@ h5{
     color:var(--fc-accent);
     font-weight: 600;
     font-size: 1rem;
+    /* opacity: .5; */
   }
   
   /* @media (max-width: 991px) {
@@ -250,7 +264,7 @@ h5{
     color:var(--fc-accent);
     font-weight: 600;
     margin-right: 10px;
-   
+    /* opacity: 0.5; */
     font-size: 12px;
   }
   
@@ -258,6 +272,7 @@ h5{
     .top-post-area .top-post-right .single-top-post .top-post-details .meta li {
       font-size: 9px;
       color: var(--fc-accent);
+      /* opacity: .5; */
     }
   }
   

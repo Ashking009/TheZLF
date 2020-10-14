@@ -34,25 +34,26 @@
   
   /* • */
 
-  .ZLF-Merchandise .content h1{
-      text-transform: uppercase;
-    
-      
-      font-size:42px;
-      font-weight: bold;
+  .ZLF-Merchandise .content h2{
+    text-transform: uppercase;
+    font-size:40px;
+    font-weight: bold;
      /* transform: scale(0.7, 1.7);*/
 
   }
 
   .ZLF-Merchandise .content .ZLF-Merchandise-img .img-fluid{
-      height: 100%;
-      border-radius: 50px;
-      opacity: .5;
+    max-width: 450px;
+    display: block;
+    width: 100%;
+    opacity: .6;
+    margin: 0 auto;
+    border-radius: 50px;
   }
 
 
   .ZLF-Merchandise .btn-learn-more {
-    font-family: "Raleway", sans-serif;
+    font-family: "Mon", sans-serif;
     font-weight: 600;
     font-size: 14px;
     letter-spacing: 1px;
@@ -79,4 +80,10 @@
   
   body{
       background: transparent;
+  }
+
+  @media (max-width:991px){
+    h2{
+      padding: 20px 0 20px 0;
+    }
   }

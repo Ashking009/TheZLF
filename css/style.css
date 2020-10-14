@@ -10,8 +10,14 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background: var(--fc-dark);
+  background: linear-gradient(rgba(1,1,1,.4),rgba(1,1,1,.4)), url("../images/background.jpg") no-repeat fixed;
+  background-size: cover;
+  position: relative;
   color: var(--fc-dark-pri);
+
+}
+.main{
+  position: relative;
 }
 
 a {
@@ -26,6 +32,7 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
   color: var(--fc-pri);
+  /* text-transform: uppercase; */
 }
 :root{
 --fc-pri: #fff;
@@ -425,9 +432,9 @@ section {
   overflow: hidden;
 }
 
-.section-bg {
+/* .section-bg {
   background-color:var(--fc-dark);
-}
+} */
 
 .section-title {
   text-align: center;
@@ -467,24 +474,22 @@ section {
 # Exchange
 --------------------------------------------------------------*/
 
-#exchange{
+/* #exchange{
   background: linear-gradient(rgba(1,1,1,.4),rgba(1,1,1,.4)), url("../images/background.jpg") no-repeat fixed;
  
-}
+} */
 
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
 
 
-#about{
+/* #about{
   background: linear-gradient(rgba(1,1,1,.4),rgba(1,1,1,.4)), url("../images/background.jpg") no-repeat fixed;
  
   position: relative;
   /* z-index: -3; */
 
- 
-}
 .about .section-title{
   padding-bottom: 0 !important;
 }
@@ -495,9 +500,9 @@ section {
   height: 100%;
 } */
 
-.counts{
+/* .counts{
   background: linear-gradient(rgba(1,1,1,.4),rgba(1,1,1,.4)), url("../images/background.jpg") no-repeat fixed;
-}
+} */
 
 .about .image {
   padding: 20px;
@@ -532,9 +537,9 @@ section {
 
 .counts {
   padding-top: 80px;
-  background: linear-gradient(rgba(1,1,1,.4),rgba(1,1,1,.4)), url("../images/background.jpg") no-repeat fixed;
+  /* background: linear-gradient(rgba(1,1,1,.4),rgba(1,1,1,.4)), url("../images/background.jpg") no-repeat fixed; */
   position: relative;
-  z-index: -5;
+  /* z-index: -5; */
 }
 
 .counts .count-box {
@@ -572,7 +577,7 @@ section {
   padding: 0;
   margin: 0;
   /* color: var(--fc-sec); */
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
 }
 
@@ -897,16 +902,17 @@ section {
   bottom: 0;
   left: 0;
   right: 0;
+  z-index: -5;
 }
 
 
 .testimonials {
   padding: 60px 0;
-  background: linear-gradient(rgba(1,1,1,.4),rgba(1,1,1,.4)), url("../images/background.jpg") no-repeat fixed;
+  /* background: linear-gradient(rgba(1,1,1,.4),rgba(1,1,1,.4)), url("../images/background.jpg") no-repeat fixed; */
   /* z-index: -3; */
   /* background-position: center center;
   background-size: cover; */
-  position: relative;
+  /* position: relative; */
 }
 
 .testimonials .quote-icon {
@@ -989,9 +995,9 @@ section {
 --------------------------------------------------------------*/
 
 .team {
-  background: linear-gradient(rgba(1,1,1,.4),rgba(1,1,1,.4)), url("../images/background.jpg") no-repeat fixed;
+  /* background: linear-gradient(rgba(1,1,1,.4),rgba(1,1,1,.4)), url("../images/background.jpg") no-repeat fixed; */
   padding: 60px 0;
-  position: relative;
+  /* position: relative; */
   /* z-index: -3; */
 }
 
@@ -1097,11 +1103,11 @@ section {
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
-#faq{
+/* #faq{
   background: linear-gradient(rgba(1,1,1,.4),rgba(1,1,1,.4)), url("../images/background.jpg") no-repeat fixed;
   position: relative;
   /* z-index: -3; */
-}
+/* } */ *
 
 .faq .faq-list {
   padding: 0;
@@ -1355,17 +1361,19 @@ section {
   }
 }
 
-#certification{
+/* #certification{
   background: linear-gradient(rgba(1,1,1,.4),rgba(1,1,1,.4)), url("../images/background.jpg") no-repeat fixed;
-  position: relative;
+  position: relative; */
   /* padding-bottom: 20px !important; */
   /* z-index: -3; */
-}
+/* } */
 #certification .section-title{
   padding-bottom: 0 !important;
   margin: 0 !important;
 }
-
+.in-news{
+  text-transform: uppercase;
+}
 
 /*--------------------------------------------------------------
 # Footer
