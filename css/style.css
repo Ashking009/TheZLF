@@ -115,6 +115,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 0;
   max-height: 40px;
+  max-width: 40px;
 }
 
 @media (max-width: 992px) {
@@ -1004,12 +1005,16 @@ section {
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .team .member .member-img {
   position: relative;
   overflow: hidden;
   border-radius: 50%;
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
 
 }
 
@@ -1118,6 +1123,9 @@ section {
   border-bottom: 1px solid #eee;
   margin-bottom: 20px;
   padding-bottom: 20px;
+}
+.faq .main-ul li{
+  border-bottom: 2;
 }
 
 .faq .faq-list a {
@@ -1375,6 +1383,13 @@ section {
   text-transform: uppercase;
 }
 
+.certification .image-cer img{
+ /* max-height: 450px; */
+}
+
+.certification .description{
+  line-height: 2;
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/

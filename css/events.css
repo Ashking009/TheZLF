@@ -8,6 +8,16 @@
   --fc-dark-pri: #eee;
   /* #7cc576; */
   }
+  .overlay-image{
+    background: url("../images/parallax.png")  repeat;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+  }
 .events{
   background: linear-gradient(rgba(1,1,1,.4),rgba(1,1,1,.4)), url("../images/background.jpg") no-repeat fixed;
   background-size: cover;
@@ -18,7 +28,7 @@ body{
 }
 
 section{
-  padding-top: 20px;
+  padding-top: 0px;
 }
 .section-title{
   padding-bottom: 0;
@@ -28,14 +38,17 @@ h1{
   font-size:40px;
   font-weight: bold;
   padding: 30px 0;
+  padding-top: 110px;
+  margin: 0;
 }
 
 .image-container{
   min-height:200px;
-  background-image: url('../images/event.jpg');
+  /* background-image: url('../images/function.jpg'); */
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: .5;
+  background-position: center;
+  opacity: 1;
 }
 /*.events .content h2 {
     font-weight: 600;
@@ -58,6 +71,11 @@ h1{
     padding-left: 28px;
     position: relative;
     display: inline-block;
+  }
+  .back-img{
+      background-image: url('../images/function.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
   }
 .size-vid{
   min-width: 360px;
