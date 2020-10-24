@@ -19,32 +19,32 @@
     right: 0;
     z-index: 0;
   }
-.ZLF-Academy{
+.ZLF-Crypto_Thoughts{
   background: linear-gradient(rgba(1,1,1,.4),rgba(1,1,1,.4)), url("../images/background.jpg") no-repeat fixed;
   background-size: cover;
   position: relative;
 }
-.ZLF-Academy .content ul {
+.ZLF-Crypto_Thoughts .content ul {
     list-style: none;
     padding: 0 ;
   }
   
-  .ZLF-Academy .content ul li {
+  .ZLF-Crypto_Thoughts .content ul li {
     padding-left: 10px;
     position: relative;
   }
 
-  .ZLF-Academy .content p{
+  .ZLF-Crypto_Thoughts .content p{
     margin-bottom: 5px;
   }
   
   
-  .ZLF-Academy .content ul li + li {
+  .ZLF-Crypto_Thoughts .content ul li + li {
     margin-top: 5px;
   }
   
  
-  .ZLF-Academy .content h2{
+  .ZLF-Crypto_Thoughts .content h2{
     text-transform: uppercase;
     font-size:40px;
     font-weight: bold;
@@ -52,7 +52,7 @@
 
   }
 
-  .ZLF-Academy .content .ZLF-Academy-img .img-fluid{
+  .ZLF-Crypto_Thoughts .content .ZLF-Crypto_Thoughts-img .img-fluid{
     max-width: 450px;
     display: block;
     width: 100%;
@@ -63,7 +63,7 @@
   }
 
 
-  .ZLF-Academy .btn-learn-more {
+  .ZLF-Crypto_Thoughts .btn-learn-more {
     font-family: "Monteserrat", sans-serif;
     font-weight: 600;
     font-size: 14px;
@@ -82,7 +82,7 @@
     right: 4em;
     margin: 0 auto 4em;
   }
-  .ZLF-Academy  .btn-learn-more:hover {
+  .ZLF-Crypto_Thoughts  .btn-learn-more:hover {
     background:var(--fc-accent);
     color: #fff;
     text-decoration: none;
